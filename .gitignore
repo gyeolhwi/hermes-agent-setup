@@ -1,0 +1,21 @@
+# AI 에이전트 런타임 산출물
+.omc/
+**/.omc/
+.claude/
+
+# 자격증명 — 저장소에 절대 넣지 않는다
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
