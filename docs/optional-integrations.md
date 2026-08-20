@@ -28,6 +28,14 @@ hermes slack manifest --agent-view --write
 hermes gateway setup
 ```
 
+## GitHub Issue ↔ Slack 웹훅 — 업무 기록과 대화 연결
+
+**추천 대상:** GitHub Issue를 업무 기준 기록으로 쓰고, Issue별 Slack 스레드에서 진행 상황을 공유하고 싶은 경우
+
+이 기능은 Hermes Gateway와 별도로 작은 Webhook Bridge 서비스를 운영합니다. GitHub의 `Issues`, `Issue comments` 이벤트를 서명 검증 후, 연결된 Slack 스레드에 전달합니다.
+
+설치 전에는 [Issue ↔ Slack 웹훅 가이드](github-issue-slack-webhook.md)를 읽으세요. GitHub 저장소 관리자 권한, 고정 HTTPS 주소, Webhook Secret, 중복 방지용 연결 정보 저장이 필요합니다.
+
 ## IMAP 메일 — Himalaya로 메일함 다루기
 
 **추천 대상:** 메일을 조회·분류·요약하거나 답장 초안을 만들고 싶은 경우
