@@ -18,7 +18,8 @@ Hermes는 AI 모델과 도구를 연결해 대화·조사·문서 작업·파일
 | WSL2 Ubuntu에서 사용 | [빠른 시작](docs/quick-start.md) |
 | AI에게 현재 PC 또는 원격 서버 세팅을 맡기기 | [AI에게 세팅 맡기기](docs/ai-assisted-setup.md) |
 | 원격 Ubuntu 서버에 항상 켜기 | [원격 서버 설정](docs/remote-server.md) |
-| Telegram·Slack·메일을 연결 | [선택 연동](docs/optional-integrations.md) |
+| Slack 봇을 처음 만들기 | [Slack 봇 연결](docs/slack-bot-setup.md) |
+| Telegram·메일 등 선택 연동 | [선택 연동](docs/optional-integrations.md) |
 
 ## 시작 전, 내가 준비할 것
 

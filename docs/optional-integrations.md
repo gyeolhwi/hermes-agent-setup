@@ -19,18 +19,14 @@ hermes gateway status
 
 **추천 대상:** 팀 채널에서 봇을 멘션하거나 스레드로 협업하고 싶은 경우
 
-Slack은 Socket Mode를 사용하므로 서버를 공개 웹 주소로 열 필요가 없습니다. 다만 Slack App 생성, Bot Token과 App Token 발급, 채널 초대가 필요합니다.
+Slack은 Socket Mode를 사용하므로 서버를 공개 웹 주소로 열 필요가 없습니다. 다만 Slack App 생성, `xoxb-...` Bot Token과 `xapp-...` App Token 발급, Member ID 설정, 채널 초대가 필요합니다.
+
+처음 연결한다면 [Slack 봇 연결 가이드](slack-bot-setup.md)를 순서대로 따르세요. Manifest 생성부터 DM·채널 테스트, 자주 생기는 `invalid_auth`·`missing_scope` 문제까지 다룹니다.
 
 ```bash
 hermes slack manifest --agent-view --write
 hermes gateway setup
 ```
-
-**내가 할 일:** Slack 앱을 만들고, 토큰·내 Member ID·Home Channel ID를 설정 화면에 직접 입력합니다.
-
-**주의:** 권한(scope)이나 이벤트를 바꾼 뒤에는 Slack에서 **Reinstall to Workspace**를 해야 변경이 적용됩니다.
-
-자세한 절차는 [공식 Slack 문서](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/slack)를 따릅니다.
 
 ## IMAP 메일 — Himalaya로 메일함 다루기
 
