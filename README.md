@@ -20,6 +20,7 @@ Hermes는 AI 모델과 도구를 연결해 대화·조사·문서 작업·파일
 | 원격 Ubuntu 서버에 항상 켜기 | [원격 서버 설정](docs/remote-server.md) |
 | Slack 봇을 처음 만들기 | [Slack 봇 연결](docs/slack-bot-setup.md) |
 | GitHub Issue와 Slack을 연결 | [Issue ↔ Slack 웹훅](docs/github-issue-slack-webhook.md) |
+| 승인·백업·검수를 포함한 유지보수 운영 | [유지보수 워크플로우](docs/maintenance-workflow.md) |
 | Telegram·메일 등 선택 연동 | [선택 연동](docs/optional-integrations.md) |
 
 ## 시작 전, 내가 준비할 것

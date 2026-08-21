@@ -2,7 +2,7 @@
 
 이 문서는 GitHub Issue를 **업무의 기준 기록**으로 두고, 해당 Issue의 대화를 Slack 스레드에 연결하는 선택 기능입니다.
 
-기본 Hermes·Slack 봇 설치에는 필요하지 않습니다. 팀이 GitHub Issue로 업무를 관리하고, Slack에서 진행 상황을 함께 보려 할 때만 추가합니다.
+기본 Hermes·Slack 봇 설치에는 필요하지 않습니다. 팀이 GitHub Issue로 업무를 관리하고, Slack에서 진행 상황을 함께 보려 할 때만 추가합니다. 실제 변경 작업의 승인·백업·검수 흐름은 [유지보수 업무 워크플로우](maintenance-workflow.md)를 함께 따릅니다.
 
 ```text
 Issue 생성 또는 변경
